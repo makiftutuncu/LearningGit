@@ -8,4 +8,8 @@ object Application extends Controller {
     Ok(views.html.main())
   }
 
+  def fooBar = Action {
+    Ok("Foo and bar!")
+  }
+
 }
