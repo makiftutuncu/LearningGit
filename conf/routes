@@ -5,7 +5,8 @@
 # Home page
 GET     /                           controllers.Application.index
 GET     /foo                        controllers.Application.fooBar
-GET     /calculate/:i/:j            controllers.Calculator.calculate(i: Int, j: Int)
+GET     /sum/:i/:j                  controllers.Calculator.sum(i: Int, j: Int)
+GET     /multiply/:i/:j             controllers.Calculator.multiply(i: Int, j: Int)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
