@@ -5,7 +5,8 @@ package model
  */
 class Dummy {
 
+  def foo = "bar"
 
-
+  def bar = "foo"
 
 }
