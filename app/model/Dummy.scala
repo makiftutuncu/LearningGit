@@ -5,7 +5,16 @@ package model
  */
 class Dummy {
 
+  def foo()= {
+    println("Foo")
+  }
 
+  def bar() = {
+    println("bar")
+  }
 
+  def dum() = {
+    println("dum")
+  }
 
 }
