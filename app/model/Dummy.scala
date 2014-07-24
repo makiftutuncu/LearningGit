@@ -5,13 +5,9 @@ package model
  */
 class Dummy {
 
-  def foo()= {
-    println("Foo")
-  }
+  def foo = "bar"
 
-  def bar() = {
-    println("bar")
-  }
+  def bar = "foo"
 
   def dum() = {
     println("dum")
