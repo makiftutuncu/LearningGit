@@ -13,4 +13,6 @@ class Dummy {
     println("dum")
   }
 
+  def aDum = "Dummy"
+
 }
