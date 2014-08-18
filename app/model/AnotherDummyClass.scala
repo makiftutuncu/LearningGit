@@ -9,4 +9,6 @@ abstract class AnotherDummyClass {
 
   def fakeFunction()
 
+  def anotherFakeFunction()
+
 }
