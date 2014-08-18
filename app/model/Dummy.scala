@@ -15,4 +15,9 @@ class Dummy {
 
   def aDum = "Dummy"
 
+
+  def bDum = "Dummy - 2"
+
+  def cDum = "Dummy - 3"
+
 }

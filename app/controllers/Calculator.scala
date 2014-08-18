@@ -13,4 +13,8 @@ object Calculator extends Controller {
   def multiply(i: Int, j: Int) = Action {
     Ok(s"Result is ${i * j}")
   }
+
+  def divide(i:Int,j:Int) = Action {
+    Ok(s"Result is ${i * j}")
+  }
 }
